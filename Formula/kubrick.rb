@@ -1,7 +1,6 @@
 class Kubrick < Formula
   desc "Fast, read-only-by-default Kubernetes cluster explorer for the terminal"
   homepage "https://github.com/ashark-ai-05/kubrick"
-  version "0.1.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do

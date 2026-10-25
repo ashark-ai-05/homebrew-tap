@@ -5,23 +5,23 @@ class Kubrick < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/ashark-ai-05/kubrick/releases/download/v0.1.0/kubrick-aarch64-apple-darwin.tar.gz"
-      sha256 "a37925c721a05f40104dcc18952300977efbc55d5be5d8eecbb995d7fcd61313"
+      url "https://github.com/ashark-ai-05/kubrick/releases/download/v0.1.1/kubrick-aarch64-apple-darwin.tar.gz"
+      sha256 "83996a70b144fd29ef9915c5885c4aba9538395a123b974fc53efbbbf0928955"
     end
     on_intel do
-      url "https://github.com/ashark-ai-05/kubrick/releases/download/v0.1.0/kubrick-x86_64-apple-darwin.tar.gz"
-      sha256 "fa9a551b68127162902d033079419dbd756fdca3f70481a53dbee05f20dd6ea1"
+      url "https://github.com/ashark-ai-05/kubrick/releases/download/v0.1.1/kubrick-x86_64-apple-darwin.tar.gz"
+      sha256 "3b5749ffcbd097171d0346fc12fbc243f2dc5875cd7cc114ab591b16bd00c559"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ashark-ai-05/kubrick/releases/download/v0.1.0/kubrick-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0a42baf04caa99f388a75c9f435f53ae9179385cfe8fd33635a13da1011616e2"
+      url "https://github.com/ashark-ai-05/kubrick/releases/download/v0.1.1/kubrick-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0bdc4ac8bb58ba9b5c00b9876a8c1c5a161266d7f6fad6ac9951d0d2e5c23f73"
     end
     on_intel do
-      url "https://github.com/ashark-ai-05/kubrick/releases/download/v0.1.0/kubrick-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b95f1cdd79671f6164eb0b634e0f7de5ac4a1fd377f15868e0b77363467f9d15"
+      url "https://github.com/ashark-ai-05/kubrick/releases/download/v0.1.1/kubrick-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "dea69d43edc71bb20eaf0d4bf74fdfd5131291cd8c8e2a65801af2c32d02db41"
     end
   end
 
